@@ -1,0 +1,97 @@
+# Crypto Market Data Pipeline
+
+A modular ETL pipeline built using Python and Pandas that fetches cryptocurrency market data from the Zebpay API, transforms and cleans the data, and stores it in Parquet format for analytics.
+
+---
+
+## Project Architecture
+
+```text
+API → Ingestion → Transformation → Load → Parquet Storage
+```
+
+---
+
+## Features
+
+- API-based data ingestion
+- JSON to DataFrame conversion
+- Data cleaning and transformation
+- Null handling and datatype validation
+- Parquet file generation
+- Modular ETL architecture
+
+---
+
+## Tech Stack
+
+- Python
+- Pandas
+- Requests
+- PyArrow
+
+---
+
+## Project Structure
+
+```text
+crypto-data-pipeline/
+│
+├── data/
+│   ├── raw_data/
+│   └── processed_data/
+│
+├── src/
+│   ├── ingest.py
+│   ├── transform.py
+│   └── load.py
+│
+├── pipeline.py
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## How to Run
+
+### Clone repository
+
+```bash
+git clone <repo-url>
+```
+
+### Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Run pipeline
+
+```bash
+python pipeline.py
+```
+
+---
+
+## Learning Outcomes
+
+This project helped in understanding:
+
+- API data ingestion
+- ETL pipeline architecture
+- Data cleaning and transformation
+- Handling schema inconsistencies
+- Fault-tolerant data processing
+- Parquet storage optimization
+
+---
+
+## Future Improvements
+
+- Logging system
+- Schema validation
+- Airflow scheduling
+- PostgreSQL integration
+- Docker support
