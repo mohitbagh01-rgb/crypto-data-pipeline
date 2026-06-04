@@ -20,6 +20,8 @@ The goal of this project was not just to fetch data, but to build a scalable and
 
 # Architecture
 
+![Architecture](./mermaid-diagram.png)
+
 ```text
            Zebpay API
                 │
