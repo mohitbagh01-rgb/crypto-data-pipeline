@@ -18,9 +18,14 @@ The goal of this project was not just to fetch data, but to build a scalable and
 
 ---
 
+
 # Architecture
 
-![Architecture](./mermaid-diagram.png)
+<p align="center">
+  <img src="./mermaid-diagram.png" alt="Data Pipeline Architecture" width="800">
+</p>
+
+The pipeline extracts cryptocurrency data from Zebpay, transforms it, and stores the processed dataset in Parquet format.
 
 
 ---
