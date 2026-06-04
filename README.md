@@ -22,24 +22,6 @@ The goal of this project was not just to fetch data, but to build a scalable and
 
 ![Architecture](./mermaid-diagram.png)
 
-```text
-           Zebpay API
-                │
-                ▼
-        Ingestion Layer
-          (ingest.py)
-                │
-                ▼
-      Transformation Layer
-        (transform.py)
-                │
-                ▼
-           Load Layer
-           (load.py)
-                │
-                ▼
-        Parquet Data Storage
-```
 
 ---
 
